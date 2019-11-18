@@ -39,6 +39,11 @@ class FourthViewController: UIViewController {
     }()
     
     @objc private func btnClick(){
+        //获取stroyboard
+//        var board = UIStoryboard.init(name:"Main", bundle: nil)
+//        board.instantiateViewController(identifier: "SLLightDeviceViewController")
+        
+        
 //        createHidden(value: 1)
 //        loginV.show()
 //        setNeedsStatusBarAppearanceUpdate()

@@ -9,13 +9,13 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
-    @IBOutlet weak var bt: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+//        var url = Net.HOST+"/v1/api/tags/hot"
+//        Net.getInstance.request(HTTPMethod.get, url: url, param: null, callback: <#T##(Any) -> ()#>)
     }
     
 

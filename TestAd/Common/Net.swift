@@ -14,10 +14,11 @@ class Net: NSObject {
     class var getInstance:Net{
         return instance
     }
+   
 }
 
 extension Net{
-    
+//     var HOST="http://122.51.205.29:8080"
     func request(_ type : HTTPMethod, url : String,param : [String:Any]?,callback : @escaping(_ response : Any)->()){
         
         Alamofire.request(url, method: type, parameters: param, encoding: URLEncoding.default, headers: nil).responseJSON{
